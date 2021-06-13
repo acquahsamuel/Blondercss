@@ -1,0 +1,25 @@
+@media (min-width: 922px) {
+    .main-left {
+        width: 50%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        height: 100%;
+        padding: 5rem;
+        // border: 1px solid black;
+    }
+
+    .main-right {
+        margin-left: 50%;
+        padding: 5rem;
+        // border: 10px solid rgb(160, 51, 51);
+    }
+}
+
+.footer {
+    background-color: black;
+    height: 2rem;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+}
