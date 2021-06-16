@@ -34,10 +34,6 @@ update package version to current state
 
 ## Configuration
 
-You can create a structured pattern below. Using MVC pattern
-
-<!-- <img src="public/images/pattern.png" width="350" height="400" title="hover text"> -->
-![readme-pattern](public/images/pattern.png)
 
 
 <!-- ## Known issues -->
