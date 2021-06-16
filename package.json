@@ -1,0 +1,30 @@
+{
+  "name": "blonder",
+  "version": "1.0.0",
+  "description": "CSS utilities framework for rapid prototyping",
+  "main": "index.js",
+  "scripts": {
+    "css-minify": "css-minify -d dist/css -o /dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acquahsamuel/blonder.git"
+  },
+  "keywords": [
+    "CSS",
+    "blonder",
+    "framework",
+    "scss",
+    "utitlities"
+  ],
+  "author": "Acquah Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acquahsamuel/blonder/issues"
+  },
+  "homepage": "https://github.com/acquahsamuel/blonder#readme",
+  "dependencies": {
+    "css-minify": "^1.1.0"
+  }
+}
+
