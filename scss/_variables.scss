@@ -1,26 +1,80 @@
-//Variables 
-// Color System 
+//Variables
+
+//======Colors
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #f7f7f7;
+$gray-500: #ced4da;
+$gray-600: #adb5bd;
+$gray-700: #6c757d;
+$gray-800: #495057;
+$gray-900: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+$grays: (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900,
+);
 
 
-$color-primary: #55c57a;
-$color-primary-light: #7ed567;
-$color-primary-dark: #28b485;
+//colors-map
+//color palette
+$blue: #1100ff;
+$blue-light: #0b4d94;
+$blue-dark: #054080;
 
-$color-secondary-light: #ffb900;
-$color-secondary-dark: #ff7730;
+$indigo: #4708ad;
+$indigo-light: #6610f2;
+$indigo-dark: #6610f2;
 
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
+$purple: #6f42c1;
+$purple-light: #6f42c1;
+$purple-dark: #6f42c1;
 
-$color-grey-light-1: #f7f7f7;
-$color-grey-dark: #777;
-$color-grey-light-2: #eee;
+$pink: #e83e8c;
+$pink-light: #e83e8c;
+$pink-dark: #e83e8c;
 
-$color-white: #fff;
-$color-black: #000;
+$red: #dc3545;
+$red-light: #dc3545;
+$red-dark: #dc3545;
+
+$orange: #ff7730;
+$orange-light: #ffb900;
+$orange-dark: #ff7730;
+
+$yellow: #ffc107;
+$yellow-light: #ffc107;
+$yellow-dark: #ffc107;
+
+$green: #55c57a;
+$green-light: #7ed567;
+$green-dark: #28b485;
+
+$teal: #20c997;
+$teal-light: #20c997;
+$teal-dark: #20c997;
+
+$cyan: #17a2b8;
+$cyan-light: #17a2b8;
+$cyan-dark: #17a2b8;
 
 
 
+$colors : (
+    "blue" : $blue,
+    "indigo": $indigo,
+    
 
-
-
+);

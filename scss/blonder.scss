@@ -1,20 +1,29 @@
 /*!
  * Blonder v1.0.0 ()
  * Copyright 2021- The Blonder Authors
- * Copyright 2021- , Inc.
+ * Copyright 2021- , Inc
  * Licensed under MIT (https://github.com/acquahsamuel/blonder/blob/main/LICENSE)
  */
 
 
+// scss-docs-start import-stack
+// Configuration
 @import "variables";
 @import "functions";
 @import "mixins";
-@import "reboot";
-
-
 @import "utilities";
-@import "components";
-@import "shadow";
 
-// @import 
+
+// Layout & custom components imports
+// @import "shadow";
+
+
+// Helpers 
+// @import "helpers";
+
+
+
+
+//Utilities 
+// @import "utilities/api";
 
