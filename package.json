@@ -4,7 +4,11 @@
   "description": "CSS utilities framework for rapid prototyping",
   "main": "index.js",
   "scripts": {
-    "css-minify": "css-minify -d dist/css -o /dist/css"
+    "start:dev": "",
+    "test": "npm run scss-compile",
+    "watch": "npm run scss-compile",
+    "css-minify": "css-minify -d dist/css -o /dist/min-css",
+    "scss-compile": "node-sass -rw scss/blonder.scss -o dist/css"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,8 @@
   },
   "homepage": "https://github.com/acquahsamuel/blonder#readme",
   "dependencies": {
-    "css-minify": "^1.1.0"
+    "css-minify": "^1.1.0",
+    "node-sass": "^6.0.1",
+    "scss-compile": "^0.1.7"
   }
 }
-
