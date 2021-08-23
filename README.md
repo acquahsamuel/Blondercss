@@ -1,8 +1,5 @@
 # blonder
-css framework
-
-
-#### css utilities framework for rapid development or prototyping 
+CSS utilities framework for rapid development or prototyping 
 
 ## Installation
 To install all of the template files, run the following script from the root of your project's directory:
@@ -10,7 +7,6 @@ To install all of the template files, run the following script from the root of 
 ``
 npm install blonder
 ``
-
 
 - **Technology stack**: SaSS
 
