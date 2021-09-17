@@ -5,48 +5,31 @@
 *.scss.map
 
 
-# Ignore docs files
-/_gh_pages/
-/site/.jekyll-metadata
-/site/docs/**/dist/
-# Hugo folders
-/resources/
+# dependencies
+/node_modules
+node_modules/
+/.pnp
+.pnp.js
 
-# Ignore ruby/bundler files
-/.bundle/
-/vendor/
-/.ruby-version
+# testing
+/coverage
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swo
-*.swp
-*.vi
-*.zip
-*~
+# production
+/build
 
-# OS or Editor folders
-._*
-.cache
+# misc
 .DS_Store
-.idea
-.project
-.settings
-.tmproj
-*.esproj
-*.sublime-project
-*.sublime-workspace
-nbproject
-Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# Komodo
-.komodotools
-*.komodoproject
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Folders to ignore
-/js/coverage/
-/node_modules/
+
+config.env 
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
