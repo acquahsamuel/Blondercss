@@ -1,7 +1,8 @@
 <br />
 <p align="center">
 <a href="https://github.com/acquahsamuel/blonder">
-  <img src="docs/assets/blonder-logo.png" alt="Logo" width="80" height="80">
+  <img src="docs/assets/images/blonder-logo.png" alt="Logo" width="250px" height="250px">
+  
 </a>
 
 ## Blonder
