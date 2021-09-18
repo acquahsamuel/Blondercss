@@ -32,11 +32,12 @@
   ],
   "homepage": "https://github.com/acquahsamuel/blonder#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "css-minify": "^1.1.0",
     "node-sass": "^6.0.1",
     "scss-compile": "^0.1.7"
   },
-   "engines": {
+  "engines": {
     "node": ">=12.13.0"
   }
 }
