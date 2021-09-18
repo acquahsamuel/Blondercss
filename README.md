@@ -12,6 +12,9 @@ CSS utilities framework for rapid development or prototyping
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/acquahsamuel/blonder)
 ![GitHub](https://img.shields.io/github/license/acquahsamuel/blonder)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/acquahsamuel/blonder)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/acquahsamuel/blonder)
+![npm bundle size](https://img.shields.io/bundlephobia/min/blonder)
+
 
 ## Documentation
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
