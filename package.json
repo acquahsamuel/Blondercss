@@ -36,9 +36,6 @@
     "node-sass": "^6.0.1",
     "scss-compile": "^0.1.7"
   },
-  "publishConfig": {
-    "registry":"https://github.com/acquahsamuel/blonder.git"
-  },
   "engines": {
     "node": ">=12.13.0"
   }
