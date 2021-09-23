@@ -32,6 +32,7 @@
   ],
   "homepage": "https://github.com/acquahsamuel/blonder#readme",
   "dependencies": {
+    "blonder": "^1.0.0",
     "colors": "^1.4.0",
     "css-minify": "^1.1.0",
     "node-sass": "^6.0.1",
