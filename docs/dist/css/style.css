@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;300;400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.top-header {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    margin-bottom: 3rem;
+    background-color: rgb(250, 250, 250);
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+
+.nav-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-rendering: optimizeSpeed;
+}
+
+.search-container {
+    width: 30%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.5rem 0rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(219, 211, 211);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 10px;
+}
+
+.form-input::placeholder {
+    padding-left: 2px;
+    font-family: inherit;
+}
+
+.form-input[type="text"] {
+    padding-left: 4px;
+    font-family: inherit;
+}
+
+/* Hero Section Class */
+.section-hero {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+}
+
+/* CSS Container Class */
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.main-content {
+    display: flex;
+    border: 1px solid black;
+}
+
+.section-left {
+    flex-basis: 25em;
+    height: auto;
+}
+
+.section-right {
+    flex-grow: 1;
+    margin-left: 4px;
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0.3rem 0;
+}
+
+.navigation-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+
+.heading-title {
+    font-weight: 200;
+}
