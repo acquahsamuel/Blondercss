@@ -5,7 +5,11 @@
   
 </a>
 
-## Blonder
+
+<h1 align="center">Blondercss</h1>
+
+****
+
 CSS utilities framework for rapid development or prototyping 
 
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
