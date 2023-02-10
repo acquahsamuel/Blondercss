@@ -1,7 +1,7 @@
 <a href="https://github.com/acquahsamuel/blonder">
 <img src="docs/assets/images/blonder-logo.png" alt="Logo" width="100px" height="100px"></a>
 
-<h1 align="center">Blondercss</h1>
+<h1>Blondercss</h1>
 <p align="center">
 
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
