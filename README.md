@@ -1,12 +1,7 @@
-
-<p align="center">
 <a href="https://github.com/acquahsamuel/blonder">
-  <img src="docs/assets/images/blonder-logo.png" alt="Logo" width="100px" height="100px"></a>
-</p>
+<img src="docs/assets/images/blonder-logo.png" alt="Logo" width="100px" height="100px"></a>
 
 <h1 align="center">Blondercss</h1>
-
-
 <p align="center">
 
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
@@ -15,10 +10,7 @@
 
 </p>
 
-
-<p align="center">
 CSS utilities framework for rapid development and custom user designs
-</p>
 
 ## Documentation
 
