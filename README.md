@@ -8,12 +8,10 @@
 ## Blonder
 CSS utilities framework for rapid development or prototyping 
 
-![GitHub language count](https://img.shields.io/github/languages/count/acquahsamuel/blonder)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/acquahsamuel/blonder)
+![Github languuage count](https://img.shields.io/npm/dt/blonder)
 ![GitHub](https://img.shields.io/github/license/acquahsamuel/blonder)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/acquahsamuel/blonder)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/acquahsamuel/blonder)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/blonder)
+
 
 
 ## Documentation
