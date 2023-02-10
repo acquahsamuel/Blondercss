@@ -5,11 +5,19 @@
 </p>
 
 <h1 align="center">Blondercss</h1>
-CSS utilities framework for rapid development and custom user designs
+
+
+<p align="center">
 
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
 ![GitHub](https://img.shields.io/github/license/acquahsamuel/blonder)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/blonder)
+
+</p>
+
+<p align="center">
+CSS utilities framework for rapid development and custom user designs
+</p>
 
 ## Documentation
 
