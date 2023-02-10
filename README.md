@@ -10,7 +10,6 @@ CSS utilities framework for rapid development and custom user designs
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
 ![GitHub](https://img.shields.io/github/license/acquahsamuel/blonder)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/blonder)
-****
 
 ## Documentation
 
