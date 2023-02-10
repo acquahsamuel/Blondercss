@@ -2,14 +2,18 @@
 <p align="center">
 <a href="https://github.com/acquahsamuel/blonder">
   <img src="docs/assets/images/blonder-logo.png" alt="Logo" width="100px" height="100px"></a>
-</p>
 
-<h1 align="center">Blondercss</h1>
-CSS utilities framework for rapid development and custom user designs
 
 ![Github languuage count](https://img.shields.io/npm/dt/blonder)
 ![GitHub](https://img.shields.io/github/license/acquahsamuel/blonder)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/blonder)
+
+
+<h1 align="center">Blondercss</h1>
+CSS utilities framework for rapid development and custom user designs
+
+
+</p>
 
 ## Documentation
 
