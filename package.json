@@ -2,14 +2,20 @@
   "name": "blondercss",
   "version": "1.0.0",
   "description": "CSS utilities framework for rapid prototyping",
-  "main": "index.js",
+  "main": "dist/js/blonder.js",
+  "sass": "scss/blonder.scss",
+  "style": "dist/css/blonder.css",
   "scripts": {
-    "start:dev": "",
+    "start": "npm-run-all --parallel watch",
     "test": "npm run scss-compile",
     "watch": "npm run scss-compile",
     "css-minify": "css-minify -d dist/css -o /dist/min-css",
     "scss-compile": "node-sass -rw scss/blonder.scss -o dist/css",
-    "change-version": "node grunt/change-version.js"
+    "change-version": "node grunt/change-version.js",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0"
   },
   "repository": {
     "type": "git",
