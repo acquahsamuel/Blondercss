@@ -1,5 +1,5 @@
 {
-  "name": "blonder",
+  "name": "blondercss",
   "version": "1.0.0",
   "description": "CSS utilities framework for rapid prototyping",
   "main": "index.js",
@@ -8,18 +8,21 @@
     "test": "npm run scss-compile",
     "watch": "npm run scss-compile",
     "css-minify": "css-minify -d dist/css -o /dist/min-css",
-    "scss-compile": "node-sass -rw scss/blonder.scss -o dist/css"
+    "scss-compile": "node-sass -rw scss/blonder.scss -o dist/css",
+    "change-version": "node grunt/change-version.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acquahsamuel/blonder.git"
   },
   "keywords": [
-    "CSS",
-    "blonder",
-    "framework",
+    "css",
     "scss",
-    "utitlities"
+    "web",
+    "responsive",
+    "utitlities",
+    "framework",
+    "mobile-first"
   ],
   "author": "Acquah Samuel",
   "license": "MIT",
@@ -30,20 +33,22 @@
     "Acquah Samuel <iamsamuelacquah@gmail.com>"
   ],
   "homepage": "https://github.com/acquahsamuel/blonder#readme",
-  "dependencies": {
-<<<<<<< HEAD
-    "blonder": "^1.0.0",
-=======
+  "dependencies": {},
+  "devDependencies": {
     "@babel/core": "^7.15.5",
->>>>>>> docs
     "colors": "^1.4.0",
     "css-minify": "^1.1.0",
     "node-sass": "^6.0.1",
     "scss-compile": "^0.1.7"
   },
   "publishConfig": {
-    "registry":"https://github.com/acquahsamuel/blonder.git"
+    "registry": "https://registry.npmjs.org/"
   },
+  "files": [
+    "dist/{css,js}/*.{css,js,map}",
+    "js/{src,dist}/**/*.{js,map}",
+    "scss/**/*.scss"
+  ],
   "engines": {
     "node": ">=12.13.0"
   }
