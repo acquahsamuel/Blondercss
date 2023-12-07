@@ -1,13 +1,36 @@
-const colors = require('colors');
-const { blondercss } = require('blondercss');
+#!/usr/bin/env node
+const { program } = require('commander');
 
-/*
-module.exports = {
-    logResponse: () => {
-        console.log('Blondercss installed successfully');
-    }
-}
-*/
+program
+    .command('list')
+    .description('List all the TODO tasks')
+    .action(list)
+
+
+// const options = yargs
+//  .usage("Usage: -n <name>")
+//  .option("n", { alias: "name", describe: "Your name", type: "string", demandOption: true })
+//  .argv;
+
+// const greeting = `Hello, ${options.name}!`;
+// console.log(greeting, ' greeting');
+
+// const greeting = chalk.white.bold("Blondercss!");
+
+// const boxenOptions = {
+//  padding: 1,
+//  margin: 1,
+//  borderStyle: "round",
+//  borderColor: "green",
+//  backgroundColor: "#555555"
+// };
+// const msgBox = boxen( greeting, boxenOptions );
+
+// console.log(msgBox);
+
+
+
+
 
 Package.describe({
 
@@ -43,3 +66,4 @@ Package.onUse(function(api){
     ], 'client');
 
 })
+

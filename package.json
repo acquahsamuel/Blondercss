@@ -2,7 +2,7 @@
   "name": "blondercss",
   "version": "1.0.0",
   "description": "CSS utilities framework for rapid prototyping",
-  "main": "dist/js/blonder.js",
+  "main": "./package.js",
   "sass": "scss/blonder.scss",
   "style": "dist/css/blonder.css",
   "scripts": {
@@ -39,7 +39,14 @@
     "Acquah Samuel <iamsamuelacquah@gmail.com>"
   ],
   "homepage": "https://github.com/acquahsamuel/blonder#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "4.0",
+    "chalk": "2.4",
+    "commander": "^10.0.0",
+    "conf": "^11.0.1",
+    "yargs": "13.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "colors": "^1.4.0",
